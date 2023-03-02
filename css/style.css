@@ -6,7 +6,7 @@
   font-family: "Source Sans Pro", sans-serif;
 }
 
-ol, dl, ul {
+ol, dl, ul, h3, h2, p, h4, h5, h6, h1, figure, address {
   margin: 0;
   padding: 0;
 }
@@ -131,13 +131,140 @@ header > section {
       row-gap: 2vh;
     }
 
+    /* CONTACT */
+    .contact {
+      background-color: rgb(40, 40, 40);
+      padding-top: 13vh;
+      padding-bottom: 13vh;
+      row-gap: 10vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .contact h3 {
+      text-transform: uppercase;
+      font-size: 28px;
+    }
+
+    .contact p {
+      font-weight: 300;
+      width: 95%;
+    }
+
+    .contact > article {
+      row-gap: 3vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .contact h3,
+    .contact h4,
+    .contact p {
+      color: white;
+    }
+
+    .contact section {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .contact ul {
+      display: flex;
+      flex-direction: column;
+      row-gap: 2vh;
+    }
+
+    .contact li {
+      display: flex;
+      column-gap: 3vw;
+      align-items: center;
+      font-size: 14px;
+    }
+
+    .contact li:first-child > a {
+      color: white;
+    }
+
+    .contact i {
+      color: darkorange;
+    }
+
+    .contact a {
+      color: darkorange;
+    }
+
+    .contact > section {
+      display: flex;
+      flex-direction: column;
+      row-gap: 4vh;
+      width: 90%;
+    }
+
+    address {
+      font-size: 14px;
+      color: white;
+    }
+
+    .contact > section > article {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .contact form {
+      width: 95%;
+    }
+
+    .contact h4 {
+      text-transform: uppercase;
+      font-size: 25px;
+    }
+
+    .contact aside {
+      row-gap: 3vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    textarea {
+      height: 20vh;
+    }
+
+    form,
+    form > section {
+      display: flex;
+      flex-direction: column;
+      row-gap: 1vh;
+    }
+
+    input,
+    textarea {
+      background-color: transparent;
+      border: 1px solid darkgray;
+      padding: 4%;
+    }
+
+    ::placeholder {
+      color: gray;
+    }
+
+    [type="submit"] {
+      color: whitesmoke;
+      width: 70%;
+      text-transform: uppercase;
+    }
+
     /* FOOTER */
     footer {
       align-items: center;
       padding-top: 10vh;
       padding-bottom: 5vh;
       background-color: rgb(30, 30, 30); 
-      row-gap: 3vh; 
+      row-gap: 3vh;
+      border-top: 1px solid gray; 
     }
 
     footer ul {
