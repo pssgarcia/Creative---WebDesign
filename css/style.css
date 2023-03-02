@@ -92,11 +92,12 @@ header > section {
     text-align: center;
   }
 
+  
   /* NAV */
   nav > ul {
     display: none;
   }
-
+  
   nav {
     display: flex;
     align-self: center;
@@ -105,13 +106,13 @@ header > section {
     height: 10vh;
     position: relative;
   }
-
+  
   nav > h2 {
     color: dimgray;
     font-size: 36px;
     padding-left: 5vw;
   }
-
+  
   summary {
     font-size: 26px;
     padding-right: 10vw;
@@ -123,7 +124,7 @@ header > section {
     position: absolute;
     text-align: right;
   }
-
+  
   details > ul {
     position: absolute;
     width: 100%;
@@ -144,9 +145,58 @@ header > section {
     font-size: 20px;
   }
   
-  /* FEATURES */
+    /* HEADER */
+    header {
+      height: 60vh;
+      justify-content: center;
+      align-items: center;
+    }
+
+    header > section {
+      align-items: center;
+      justify-content: center;
+      row-gap: 3vh;
+    }
+
+    header aside {
+      display: flex;
+      flex-direction: column;
+      row-gap: 2vh;
+    }
+
+    header h1,
+    header h2 {
+      color: whitesmoke;
+      text-transform: uppercase;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 34px;
+    }
+
+    header h2 {
+      font-size: 17px;
+    }
+
+    header a {
+      background-color: orange;
+      color: white;
+      padding: 3%;
+      text-transform: uppercase;
+      width: 37%;
+      text-align: center;
+      font-weight: 700;
+    }
+
+    /* FEATURES */
     .features {
       row-gap: 7vh;
+    }
+
+    .features h3 {
+      font-size: 30px;
+      font-weight: 600;
     }
 
     .features > section {
