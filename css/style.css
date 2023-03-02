@@ -130,4 +130,34 @@ header > section {
     .features > article {
       row-gap: 2vh;
     }
+
+    /* FOOTER */
+    footer {
+      align-items: center;
+      padding-top: 10vh;
+      padding-bottom: 5vh;
+      background-color: rgb(30, 30, 30); 
+      row-gap: 3vh; 
+    }
+
+    footer ul {
+      display: flex;
+      list-style-type: none;
+      column-gap: 3vw;
+    }
+
+    footer [class*="fa-"] {
+      width: 5vh;
+      height: 5vh;
+      border: 1px solid whitesmoke;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: whitesmoke;
+    }
+
+    footer p {
+      color: whitesmoke;
+    }
 }
