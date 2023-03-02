@@ -297,6 +297,51 @@ header > section {
       width: 90%;
     }
 
+    /* TEAM */
+    .team {
+      row-gap: 5vh;
+    }
+
+    .team small {
+      font-size: 18px;
+      text-transform: uppercase;
+    }
+
+    .team ul {
+      display: none;
+    }
+
+    .team figure {
+      display: flex;
+      flex-direction: column;
+      row-gap: 5vh;
+      align-items: center;
+    }
+
+    .team img {
+      width: 100%;
+    }
+
+    .team aside,
+    .team figcaption {
+      align-items: center;
+      width: 100%;
+    }
+
+    .team h4 {
+      background-color: white;
+      color: darkorange;
+      padding: 3%;
+      text-transform: uppercase;
+      text-align: center;
+    }
+
+    .team > section {
+      display: flex;
+      flex-direction: column;
+      row-gap: 6vh;
+    }
+
     /* PORTFOLIO */
     .portfolio {
       row-gap: 10vh;
