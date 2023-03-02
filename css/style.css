@@ -124,11 +124,75 @@ header > section {
       display: flex;
       justify-content: center; 
       align-items: center;
-      font-size: 24px;
+      font-size: 24px   ;
     }
 
     .features > article {
       row-gap: 2vh;
+    }
+
+    /* ABOUT */
+    .about {
+      row-gap: 5vh;
+    }
+
+    .about > section > article, 
+    .about > section aside {
+      display: flex;
+      flex-direction: column;
+      row-gap: 2vh;
+    }
+
+    .about > article {
+      row-gap: 3vh;
+    }
+
+    .about section {
+      display: flex;
+      flex-direction: column; 
+      row-gap: 5vh;
+    }
+
+    .about ul {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      row-gap: 4vh;
+    }
+
+    .skills > li {
+      display: flex;
+      flex-direction: column;
+      row-gap: 2vh;
+    }
+
+    .skills li > aside {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+    }
+
+    .about h6 {
+      height: 5px;
+      border-radius: 20px;
+      width: 100%;
+      background-color: darkgray;
+      display: flex;
+    }
+
+    .about span {
+      height: 100%;
+      width: 100%;
+      background-color: darkorange;
+      border-radius: 20px;
+    }
+
+    .about li:nth-child(3) span {
+      width: 80%;
+    }
+
+    .about li:last-child span {
+      width: 90%;
     }
 
     /* PORTFOLIO */
